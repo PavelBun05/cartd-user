@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "InterRegular";
+  src: url(../fonts/InterRegular.woff2);
+}
+
+.card-user {
+  width: min-content;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px 16px 16px;
+  border: 1px solid #2a2f37;
+  border-radius: 20px;
+  background-color: #1a1d22;
+}
+
+.card-user__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 100px;
+}
+
+.card-user__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-user__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-user__name {
+  font-family: "InterRegular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #f3f4f6;
+  white-space: nowrap;
+}
+
+.card-user__post {
+  font-family: "InterRegular", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #9ca3af;
+  white-space: nowrap;
+}
+
+.card-user__write-btn {
+  width: min-content;
+  background-color: #00447c;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  font-family: "InterRegular", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #f3f4f6;
+  white-space: nowrap;
+}
